@@ -1,0 +1,41 @@
+{
+  "name": "components-docs",
+  "version": "0.0.1",
+  "description": "TransferWise design system components docs",
+  "main": "dist/index.umd.js",
+  "dependencies": {
+    "@mdx-js/loader": "^0.16.0",
+    "@mdx-js/mdx": "^0.16.0",
+    "@rebass/grid": "^6.0.0-4",
+    "@transferwise/components": "^4.6.0",
+    "bootstrap": "transferwise/bootstrap#v5.18.3",
+    "next": "^7.0.2",
+    "polished": "^2.3.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.1"
+  },
+  "devDependencies": {
+    "@zeit/next-mdx": "^1.2.0",
+    "babel-plugin-inline-react-svg": "^1.0.1",
+    "babel-plugin-styled-components": "^1.8.0",
+    "next-page-map": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transferwise/components-docs.git"
+  },
+  "author": "TransferWise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/transferwise/components-docs/issues"
+  },
+  "homepage": "https://github.com/transferwise/components-docs#readme"
+}

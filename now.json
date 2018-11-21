@@ -1,0 +1,23 @@
+{
+  "name": "transferwise-components-docs",
+  "alias": "transferwise-components-docs.now.sh",
+  "scale": {
+    "sfo": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    ".babelrc",
+    "next.config.js",
+    "package-lock.json",
+    "components",
+    "docs",
+    "pages",
+    "src",
+    "static"
+  ]
+}
